@@ -26,7 +26,7 @@ function verItens(){
 function adicionarItem(){
     item = document.getElementById('item').value
     
-    if(validarItem()){
+    if(validarItem(item)){
         if(mochila.length < 8){
             mochila.push(item)
             verItens()
@@ -56,7 +56,7 @@ function editarItem(i){
            edit = 0
             verItens()
         }
-        else if(validarItem() == true){
+        else if(validarItem(item) == true){
             mochila[i] = item
             edit = 0
             verItens()
@@ -64,27 +64,24 @@ function editarItem(i){
     } 
 }
 
-function validarItem(){
-    item = item[0].toUpperCase() + item.slice(1).toLowerCase()
-
+function validarItem(item){
     if(item == ''){
         alert('Campo vazio')
         return false
-    }else if(mochila.indexOf(item) != -1){
-        alert('Este item já está na lista.')
-        return false
     }
-    else if(item.length > 10){
-        alert('Item muito grande.')
+    else if(mochila.indexOf(item) != -1){
+        alert('Este item já está na lista.')
         return false
     }
     else if(item.length > 0 && item[0] == ' '){
         alert('Digitação inválida.')
         return false
     }
+    else if(item.length > 10){
+        alert('Item muito grande.')
+        return false
+    }
     else{
         return true
     }
-
-
 }
