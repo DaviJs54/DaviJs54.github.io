@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container" id="cadastro">
+        <h1>Cadastro</h1>
+        <div class="inputs">
+            <input id="nome" type="text" placeholder="Nome"> 
+            <input id="idade" type="text" placeholder="Idade"> 
+            <input id="email" type="email" placeholder="Email"> 
+            <input id="senha" type="password" placeholder="Senha">
+            <input id="senhaconf" type="password" placeholder="Confirmar senha"> 
+        </div>
+        <div class="botoes">
+            <button onclick="cadastrar()">Cadastrar</button> 
+            <button onclick="telaLogin()">Já tenho uma conta</button>
+        </div>
+    </div>
+
+    <div class="container" id="login">
+        <h1>Login</h1>
+        <div class="inputs">
+            <input id="nome2" type="text" placeholder="Nome"> 
+            <input id="senha2" type="password" placeholder="Senha">
+        </div>
+        <div class="botoes">
+            <button onclick="entrar()">Entrar</button>
+            <button onclick="telaCadastro()">Criar uma conta</button>
+        </div>
+    </div>
+
+    <div id="info"></div>
+
+</body>
+</html>
