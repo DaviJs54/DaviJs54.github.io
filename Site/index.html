@@ -3,40 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Objeto</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-
-    <div class="container" id="cadastro">
-        <h1>Cadastro</h1>
-        <div class="inputs">
-            <input id="nome" type="text" placeholder="Nome"> 
-            <input id="idade" type="text" placeholder="Idade"> 
-            <input id="email" type="email" placeholder="Email"> 
-            <input id="senha" type="password" placeholder="Senha">
-            <input id="senhaconf" type="password" placeholder="Confirmar senha"> 
+    <div class="topo">Try Hard Gym</div>
+    <div class="campo">
+        <div class="bloco" id="login">
+            <div class="tit">Login</div>
+            <div class="write">
+                <input type="text" class="part" id="userlogin" placeholder="User">
+                <input type="password" class="part" id="senhalogin" placeholder="Password">
+                <button id="submit">Submit</button>
+            </div>
         </div>
-        <div class="botoes">
-            <button onclick="cadastrar()">Cadastrar</button> 
-            <button onclick="telaLogin()">Já tenho uma conta</button>
-        </div>
-    </div>
-
-    <div class="container" id="login">
-        <h1>Login</h1>
-        <div class="inputs">
-            <input id="nome2" type="text" placeholder="Nome"> 
-            <input id="senha2" type="password" placeholder="Senha">
-        </div>
-        <div class="botoes">
-            <button onclick="entrar()">Entrar</button>
-            <button onclick="telaCadastro()">Criar uma conta</button>
+        <div class="bloco" id="cadastro">
+            <div class="tit">Create account</div>
+            <div class="write">
+                <input type="text" class="part" id="usercadastro" placeholder="User">
+                <input type="password" class="part" id="senhacadastro" placeholder="Password">
+                <button id="submit">Submit</button>
+            </div>
         </div>
     </div>
-
-    <div id="info"></div>
-
+    <div class="sobre">
+        <div class="tit">Sobre nosso Site</div>
+        <div class="conteudo">
+            <img src="imagem1.jpg" alt="">
+            <div class="para">
+                Seja bem-vindo a nossa arena! Aqui, você pode criar o treino ideal para alcançar seus 
+                objetivos, personalizar sua rotina de exercícios, conversar com especialistas para 
+                tirar dúvidas e ajustar seu plano conforme seu progresso. Além disso, oferecemos opções 
+                para planejar sua dieta, acompanhar sua evolução e encontrar motivação para cada etapa da 
+                sua jornada. Seja qual for o seu objetivo, temos todas as ferramentas para ajudá-lo a se 
+                manter no caminho certo e a conquistar os melhores resultados!
+            </div>
+            <img src="imagem2.jpg" alt="">
+        </div>
+    </div>
 </body>
 </html>
