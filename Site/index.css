@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Bold';
+  src: url('Fonte\ UTENDO/Utendo-Bold.ttf') format('truetype');
+}
+body{
+    background-image: url("Página\ Inicial/Página Inicial BACKGROUND.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Bold', sans-serif;
+}
+.title{
+    display: flex;
+    font-size: 91.3px;
+    color: white;
+    user-select: none;
+    justify-content: center;
+}
+img{
+    height: 7vh;
+}
+img:hover{
+    cursor: default;
+}
+.block{
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+}
+.image{
+    height: 40vh;
+}

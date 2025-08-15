@@ -1,0 +1,47 @@
+Guia de arquivos:
+
+1. Página Inicial:
+- Título na fonte UTENDO BOLD em tamanho 90,4
+- PNG do Background azul
+- Botão ´´clique aqui para acessar a loja`` em formato PNG (Já está com a escrita, caso aparece com fundo branco é por que está com fundo transparente fica tranquilo)
+
+2. Produtos:
+- ´´Explore nosso catálogo de produtos`` em UTENDO BOLD em tamanho 22,3
+- Ícone de Categorias em formato PNG
+- Ícone HOME em formato PNG
+- Ícone CARRINHO em formato PNG
+- NAVBAR em formato PNG
+- Modelo de alinhamento dos produtos em PNG
+- Fundo em FADE nas cores #082ba6 e #0596ff
+- Ícone CATEGORIAS ABERTAS em PNG
+- Ícone CATEGORIAS ABERTAS 2 em PNG
+
+3. Clicou em alguma CATEGORIA:
+- ´´Nome da categoria aqui (Cadeiras)`` em UTENDO BOLD em tamanho 22,3
+
+4: Clicou em um produto e foi parar na página dele:
+- Produto já montado em SVG / Ícones do Produto separados em PNG
+- Cores do fundo do popup do produto em FADE #000000 e #737373
+- ´´Nome do produto aqui`` em UTENDO BOLD tamanho 18,9
+- Preço do produto em UTENDO BOLD tamanho 17,5
+- Descrição do produto em UTENDO EXTRALEVE em tamanho 12,7
+- ´´Quantidade`` em UTENDO EXTRALEVE em tamanho 14,2
+- ´´Comprar`` em UTENDO REGULAR em tamanho 22,6
+
+5. Carrinho:
+- ´´Seu carrinho`` em UTENDO BOLD em tamanho 24,2
+- Ícone que vai ao lado da escrita ´´Seu carrinho`` em PNG
+- ´´Produto`` ´´Preço`` e ´´Quantidade`` AMBOS EM UTENDO EXTRALEVE em tamanho 21,5
+- Contorno do popup do carrinho em PNG
+- Ícone ´´Produto`` ´´Preço`` e ´´Quantidade`` em PNG
+- Preço dos produtos em UTENDO BOLD tamanho 18,7
+- ´´Finalizar compra`` em UTENDO REGULAR em tamanho 11,4
+- Ícone de finalizar compra em PNG
+- Ícones de referência de imagem e nome do produto em PNG
+- Ícones de adicionar mais quantidade do mesmo produto no carrinho em PNG
+- Ícone de lixeira em PNG
+
+6. Formas de pagamento:
+- ´´Formas de pagamento disponíveis.`` em UTENDO REGULAR em tamanho 32,4
+- ´´Dinheiro`` e ´´Pix`` AMBOS EM UTENDO EXTRALEVE em tamanho 35,2
+- Ícones de PIX e SIFRÃO em PNG.
